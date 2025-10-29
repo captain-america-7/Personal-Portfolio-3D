@@ -1,225 +1,60 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Quantum Driven Secure Password Manager Using AWS Cloud Services",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Quantum-resistant password manager with E2E encryption, MFA, and real-time threat detection on AWS.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/accessories.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Engineered a quantum-resistant AES module and integrated into the manager to secure user data against emerging quantum threats.",
+      "Implemented end-to-end encryption, enforced MFA across accounts, and configured real-time threat detection; mitigated 10 high-severity vulnerabilities.",
     ],
     href: "",
     logo: "",
     image: "/assets/projects/auth-system.jpg",
     tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "AWS", path: "/assets/logos/azure.svg" },
+      { id: 2, name: "Python", path: "/assets/logos/javascript.svg" },
+      { id: 3, name: "Security", path: "/assets/logos/react.svg" },
     ],
+    date: "Dec 2024 – May 2025",
   },
   {
-    id: 3,
-    title: "Blazor Web App",
+    id: 2,
+    title: "Automated Vulnerability Detection Using RNN",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "RNN-based vulnerability detection with MySQL-driven CVE data handling and optimized inference.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "Designed and implemented an RNN model for automated vulnerability detection and used MySQL queries to handle CVE data.",
+      "Optimized inference pipeline, achieving a 30% boost in accuracy.",
     ],
     href: "",
     logo: "",
     image: "/assets/projects/elearning.jpg",
     tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "Python", path: "/assets/logos/javascript.svg" },
+      { id: 2, name: "MySQL", path: "/assets/logos/sqlite.svg" },
+      { id: 3, name: "ML", path: "/assets/logos/react.svg" },
     ],
+    date: "Feb 2023 – Apr 2023",
+  },
+  {
+    id: 3,
+    title: "Spam Email Detection Using ML",
+    description:
+      "NLP-based spam email detection with Python and SQL, achieving 95% precision and 10% lower latency.",
+    subDescription: [
+      "Built using Python & SQL; integrated MySQL for training data storage and model results.",
+      "Engineered NLP model for spam detection with 95% precision and optimized inference to reduce latency by 10%.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/accessories.jpg",
+    tags: [
+      { id: 1, name: "Python", path: "/assets/logos/javascript.svg" },
+      { id: 2, name: "NLP", path: "/assets/logos/react.svg" },
+      { id: 3, name: "MySQL", path: "/assets/logos/sqlite.svg" },
+    ],
+    date: "Jan 2023 – May 2023",
   },
 ];
 
@@ -324,5 +159,99 @@ export const reviews = [
     username: "@eve",
     body: "So glad I found this. It has changed the game for me.",
     img: "https://robohash.org/eve",
+  },
+];
+
+export const education = [
+  {
+    title: "B.Tech Computer Science and Engineering – Cyber Security",
+    job: "Amrita Vishwa Vidhyapeetham, Chennai, India",
+    date: "2021 – 2025",
+    contents: [
+      "Focus: Cybersecurity, AI/ML for Security, Networking, Cloud Security.",
+    ],
+  },
+];
+
+export const skillsDetailed = [
+  {
+    category: "Cybersecurity & Research Tools",
+    items: [
+      "Wireshark",
+      "Nmap",
+      "Burp Suite",
+      "Nessus",
+      "Metasploit",
+      "Splunk",
+      "OWASP ZAP",
+    ],
+  },
+  {
+    category: "AI & Data Science",
+    items: [
+      "TensorFlow",
+      "Scikit-learn",
+      "Pandas",
+      "NumPy",
+      "NLP (Text Classification, Tokenization)",
+    ],
+  },
+  {
+    category: "Security Frameworks & Standards",
+    items: [
+      "NIST CSF",
+      "MITRE ATT&CK",
+      "OWASP Top 10",
+      "CVE/CWE Analysis",
+    ],
+  },
+  {
+    category: "Programming & Databases",
+    items: ["Python", "Java", "SQL", "MySQL", "Bash"],
+  },
+  {
+    category: "Cloud Platforms",
+    items: [
+      "AWS (IAM, EC2, S3, CloudTrail)",
+      "Google Cloud Platform",
+    ],
+  },
+  {
+    category: "Operating Systems",
+    items: ["Linux (Ubuntu, Kali)", "Windows"],
+  },
+  {
+    category: "Networking",
+    items: ["TCP/IP", "UDP", "HTTP/HTTPS", "Network Security Protocols"],
+  },
+];
+
+export const courses = [
+  "Google Cloud Computing Foundations: Cloud Computing Fundamentals",
+  "Google Cybersecurity Professional Certificate",
+  "Web Hacking Expert: Full-Stack Exploitation Mastery, EC-Council",
+  "Collaborate Effectively for Professional Success, IBM",
+  "SQL Injection Attacks, EC-Council",
+  "Emotional Intelligence: Cultivating Immensely Human Interactions, University of Michigan",
+];
+
+export const extracurricular = [
+  {
+    title: "Mentor, AMC FOSS Club",
+    job: "Chennai, India",
+    date: "Apr 2023 – Mar 2024",
+    contents: [
+      "Mentored 15+ students to build Linux command-line proficiency for advanced cybersecurity coursework.",
+      "Led hands-on Linux training, reducing average server management time by ~20% for participants.",
+    ],
+  },
+  {
+    title: "Member, Cognizance Club",
+    job: "Chennai, India",
+    date: "Mar 2022 – Jul 2024",
+    contents: [
+      "Researched and presented on modern phishing attack vectors and preventative measures.",
+      "Co-developed and led a CTF event for 30+ members leveraging penetration testing skills.",
+    ],
   },
 ];
