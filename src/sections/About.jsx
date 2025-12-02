@@ -80,7 +80,7 @@ const About = () => {
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
             <p className="headtext">Location</p>
-            <p className="subtext">Chennai, India • Open to remote</p>
+            <p className="subtext">Hyderabad, India • Open to remote</p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
             <Globe />
