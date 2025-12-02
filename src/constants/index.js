@@ -3,10 +3,10 @@ export const myProjects = [
     id: 1,
     title: "Quantum Driven Secure Password Manager Using AWS Cloud Services",
     description:
-      "Quantum-resistant password manager with E2E encryption, MFA, and real-time threat detection on AWS.",
+      "Revolutionized user account protection by integrating multi-factor authentication and end-to-end encryption.",
     subDescription: [
-      "Engineered a quantum-resistant AES module and integrated into the manager to secure user data against emerging quantum threats.",
-      "Implemented end-to-end encryption, enforced MFA across accounts, and configured real-time threat detection; mitigated 10 high-severity vulnerabilities.",
+      "Revolutionized user account protection by integrating multi-factor authentication, drastically minimizing unauthorized access incidents, while simultaneously fine-tuning threat rule configurations to achieve a measurable 20% reduction in false positive alerts.",
+      "Integrated end-to-end encryption across message channels and configured real-time threat detection; mitigated 10 high-severity vulnerabilities reported by ethical hackers.",
     ],
     href: "",
     logo: "",
@@ -20,41 +20,43 @@ export const myProjects = [
   },
   {
     id: 2,
+    title: "Smart Home Automation Using AWS and IoT",
+    description:
+      "Designed and implemented a smart home automation system leveraging AWS for cloud infrastructure.",
+    subDescription: [
+      "Designed and implemented a smart home automation system leveraging AWS for cloud infrastructure.",
+      "Handled end-to-end deployment, ensuring reliability, security, and efficiency.",
+      "Gained experience with cloud architecture and operational flexibility.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/accessories.jpg",
+    tags: [
+      { id: 1, name: "AWS", path: "/assets/logos/azure.svg" },
+      { id: 2, name: "IoT", path: "/assets/logos/react.svg" },
+      { id: 3, name: "Cloud", path: "/assets/logos/javascript.svg" },
+    ],
+    date: "Jul 2024 – Nov 2024",
+  },
+  {
+    id: 3,
     title: "Automated Vulnerability Detection Using RNN",
     description:
-      "RNN-based vulnerability detection with MySQL-driven CVE data handling and optimized inference.",
+      "Engineered an RNN-based intrusion detection system utilizing Python, NumPy, Pandas, and TensorFlow.",
     subDescription: [
-      "Designed and implemented an RNN model for automated vulnerability detection and used MySQL queries to handle CVE data.",
-      "Optimized inference pipeline, achieving a 30% boost in accuracy.",
+      "Engineered an RNN-based intrusion detection system utilizing Python, NumPy, Pandas, and TensorFlow; decreased the false positive rate by 18% and reduced average detection time by 12 milliseconds.",
+      "Improved model accuracy by 30% through code optimization and inference pipeline enhancements.",
+      "Designed SQL queries and database schema to store CVE data efficiently.",
     ],
     href: "",
     logo: "",
     image: "/assets/projects/elearning.jpg",
     tags: [
       { id: 1, name: "Python", path: "/assets/logos/javascript.svg" },
-      { id: 2, name: "MySQL", path: "/assets/logos/sqlite.svg" },
-      { id: 3, name: "ML", path: "/assets/logos/react.svg" },
+      { id: 2, name: "TensorFlow", path: "/assets/logos/react.svg" },
+      { id: 3, name: "SQL", path: "/assets/logos/sqlite.svg" },
     ],
     date: "Feb 2023 – Apr 2023",
-  },
-  {
-    id: 3,
-    title: "Spam Email Detection Using ML",
-    description:
-      "NLP-based spam email detection with Python and SQL, achieving 95% precision and 10% lower latency.",
-    subDescription: [
-      "Built using Python & SQL; integrated MySQL for training data storage and model results.",
-      "Engineered NLP model for spam detection with 95% precision and optimized inference to reduce latency by 10%.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/accessories.jpg",
-    tags: [
-      { id: 1, name: "Python", path: "/assets/logos/javascript.svg" },
-      { id: 2, name: "NLP", path: "/assets/logos/react.svg" },
-      { id: 3, name: "MySQL", path: "/assets/logos/sqlite.svg" },
-    ],
-    date: "Jan 2023 – May 2023",
   },
 ];
 
@@ -66,51 +68,29 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/nallaaruntej",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "",
     icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Security Engineer",
+    job: "Workcohol",
+    date: "Apr 2025 – Nov 2025",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
-  {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
-    contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Performed monthly vulnerability assessments (Nessus, Wireshark, Nmap) and documented findings using MITRE ATTACK, enabling faster remediation workflows.",
+      "Developed Python-based automated log-analysis scripts, improving detection of suspicious activities and saving 3+ hours/week of manual review.",
+      "Contributed to internal AI model risk analysis, mapping potential attack surfaces and recommending mitigations aligned with OWASP ML Top 10.",
     ],
   },
 ];
+
 export const reviews = [
   {
     name: "Jack",
@@ -166,7 +146,7 @@ export const education = [
   {
     title: "B.Tech Computer Science and Engineering – Cyber Security",
     job: "Amrita Vishwa Vidhyapeetham, Chennai, India",
-    date: "2021 – 2025",
+    date: "Sep 2021 – Sep 2025",
     contents: [
       "Focus: Cybersecurity, AI/ML for Security, Networking, Cloud Security.",
     ],
@@ -175,64 +155,43 @@ export const education = [
 
 export const skillsDetailed = [
   {
-    category: "Cybersecurity & Research Tools",
-    items: [
-      "Wireshark",
-      "Nmap",
-      "Burp Suite",
-      "Nessus",
-      "Metasploit",
-      "Splunk",
-      "OWASP ZAP",
-    ],
+    category: "Programming & Core CS",
+    items: ["Python", "Java (Basics)", "SQL", "OOP", "Data Structures & Algorithms"],
   },
   {
-    category: "AI & Data Science",
-    items: [
-      "TensorFlow",
-      "Scikit-learn",
-      "Pandas",
-      "NumPy",
-      "NLP (Text Classification, Tokenization)",
-    ],
+    category: "Software Engineering",
+    items: ["SDLC", "API development", "Debugging", "Unit testing", "Code reviews"],
   },
   {
-    category: "Security Frameworks & Standards",
-    items: [
-      "NIST CSF",
-      "MITRE ATT&CK",
-      "OWASP Top 10",
-      "CVE/CWE Analysis",
-    ],
+    category: "Automation & Scripting",
+    items: ["Python scripting", "Bash", "Automation frameworks"],
   },
   {
-    category: "Programming & Databases",
-    items: ["Python", "Java", "SQL", "MySQL", "Bash"],
+    category: "Testing Tools",
+    items: ["Selenium (beginner)", "PyTest", "JUnit (basic)", "Test automation fundamentals"],
   },
   {
-    category: "Cloud Platforms",
-    items: [
-      "AWS (IAM, EC2, S3, CloudTrail)",
-      "Google Cloud Platform",
-    ],
+    category: "Database",
+    items: ["MySQL", "SQL queries", "Schema design basics"],
+  },
+  {
+    category: "Version Control & DevOps",
+    items: ["Git", "GitHub", "CI/CD basics"],
   },
   {
     category: "Operating Systems",
-    items: ["Linux (Ubuntu, Kali)", "Windows"],
+    items: ["Linux (Ubuntu/Kali)"],
   },
   {
-    category: "Networking",
-    items: ["TCP/IP", "UDP", "HTTP/HTTPS", "Network Security Protocols"],
+    category: "Other Tools",
+    items: ["Postman", "REST APIs", "JSON", "AWS (IAM, EC2, CloudTrail)"],
   },
 ];
 
 export const courses = [
-  "Google Cloud Computing Foundations: Cloud Computing Fundamentals",
+  "Google Cloud Computing Foundations",
   "Google Cybersecurity Professional Certificate",
-  "Web Hacking Expert: Full-Stack Exploitation Mastery, EC-Council",
-  "Collaborate Effectively for Professional Success, IBM",
   "SQL Injection Attacks, EC-Council",
-  "Emotional Intelligence: Cultivating Immensely Human Interactions, University of Michigan",
 ];
 
 export const extracurricular = [
@@ -241,8 +200,8 @@ export const extracurricular = [
     job: "Chennai, India",
     date: "Apr 2023 – Mar 2024",
     contents: [
-      "Mentored 15+ students to build Linux command-line proficiency for advanced cybersecurity coursework.",
-      "Led hands-on Linux training, reducing average server management time by ~20% for participants.",
+      "Mentored 15+ students, equipping them with the necessary Linux command-line skills to qualify for advanced cybersecurity coursework.",
+      "Orchestrated a hands-on Linux command-line training program, enabling students to reduce the time spent on essential server management tasks by an average of 20%.",
     ],
   },
   {
@@ -250,8 +209,8 @@ export const extracurricular = [
     job: "Chennai, India",
     date: "Mar 2022 – Jul 2024",
     contents: [
-      "Researched and presented on modern phishing attack vectors and preventative measures.",
-      "Co-developed and led a CTF event for 30+ members leveraging penetration testing skills.",
+      "Researched and presented findings on modern phishing attack vectors to club members, leading a discussion on preventative measures.",
+      "Applied skills from advanced workshops in penetration testing to develop and lead a Capture The Flag (CTF) event for 30+ club members.",
     ],
   },
 ];
