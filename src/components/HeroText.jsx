@@ -61,7 +61,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi,I'm Aruntej
+          Hi, I'm Aruntej
         </motion.p>
         <div>
           <motion.p
@@ -85,7 +85,7 @@ const HeroText = () => {
             />
           </motion.div>
           <motion.p
-            className="text-4xl font-black text-neutral300"
+            className="text-4xl font-black text-neutral-300"
             variants={variants}
             initial="hidden"
             animate="visible"
